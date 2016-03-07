@@ -47,7 +47,7 @@ var Header = React.createClass({displayName: "Header",
     return (
       React.createElement("div", {className: "navbar navbar-fixed-top navbar-inverse"}, 
             React.createElement("div", {className: "container"}, 
-              React.createElement(Link, {to: "/", id: "logo"}, "App"), 
+              React.createElement(Link, {to: "/", id: "logo"}, "KnowledgeStream"), 
               React.createElement("nav", null, 
                   React.createElement("ul", {className: "nav navbar-nav navbar-right"}, 
                     React.createElement("li", null, React.createElement(Link, {to: "/about"}, "About")), 

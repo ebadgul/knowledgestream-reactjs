@@ -46,7 +46,7 @@ var Header = React.createClass({
     return (
       <div className="navbar navbar-fixed-top navbar-inverse" >
             <div className="container">
-              <Link to="/" id="logo" >App</Link>
+              <Link to="/" id="logo" >KnowledgeStream</Link>
               <nav>
                   <ul className="nav navbar-nav navbar-right">
                     <li><Link to="/about">About</Link></li>
